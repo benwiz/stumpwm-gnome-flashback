@@ -5,7 +5,7 @@ if [ -n "$DESKTOP_AUTOSTART_ID" ]; then
 	dbus-send --print-reply --session --dest=org.gnome.SessionManager "/org/gnome/SessionManager" org.gnome.SessionManager.RegisterClient "string:exwm-gnome" "string:$DESKTOP_AUTOSTART_ID"
 fi
 
-emacs --eval "(exwm-enable)"
+emacs --fullscreen --eval "(exwm-enable)"
 
 # Close session when exwm exits.
 if [ -n "$DESKTOP_AUTOSTART_ID" ]; then
