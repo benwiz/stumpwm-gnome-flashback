@@ -12,6 +12,8 @@ Clone this repository and run `make install` with root priviledges.
 
 Install the `gnome-flashback` package, and of course `Emacs` with the `exwm` package.
 
+Note, gnome defines Super-based hotkeys and you have to disable these if you want to use them from within Emacs.
+
 This setup launches `Emacs` with `emacs --eval '(exwm-enable)'`, so configure your `Emacs` to load `exwm` when `(exwm-enable)` is executed, e.g.:
 
 ``` emacs-lisp
