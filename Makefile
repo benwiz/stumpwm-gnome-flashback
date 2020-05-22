@@ -3,15 +3,15 @@ PREFIX  = $(DESTDIR)usr
 INSTALL = install
 
 install:
-	$(INSTALL) -m 0644 -D files/exwm-gnome-flashback-session.desktop $(PREFIX)/share/xsessions/exwm-gnome-flashback-session.desktop
-	$(INSTALL) -m 0644 -D files/exwm-gnome-flashback.desktop $(PREFIX)/share/applications/exwm-gnome-flashback.desktop
-	$(INSTALL) -m 0644 -D files/exwm-gnome-flashback.session $(PREFIX)/share/gnome-session/sessions/exwm-gnome-flashback.session
-	$(INSTALL) -m 0755 -D files/exwm-gnome-flashback-session $(PREFIX)/bin/exwm-gnome-flashback-session
-	$(INSTALL) -m 0755 -D files/exwm-gnome-flashback $(PREFIX)/bin/exwm-gnome-flashback
+	$(INSTALL) -m 0644 -D files/stumpwm-gnome-flashback-session.desktop $(PREFIX)/share/xsessions/stumpwm-gnome-flashback-session.desktop
+	$(INSTALL) -m 0644 -D files/stumpwm-gnome-flashback.desktop $(PREFIX)/share/applications/stumpwm-gnome-flashback.desktop
+	$(INSTALL) -m 0644 -D files/stumpwm-gnome-flashback.session $(PREFIX)/share/gnome-session/sessions/stumpwm-gnome-flashback.session
+	$(INSTALL) -m 0755 -D files/stumpwm-gnome-flashback-session $(PREFIX)/bin/stumpwm-gnome-flashback-session
+	$(INSTALL) -m 0755 -D files/stumpwm-gnome-flashback $(PREFIX)/bin/stumpwm-gnome-flashback
 
 uninstall:
-	rm -f $(PREFIX)/bin/exwm-gnome-flashback $(PREFIX)/bin/exwm-gnome-flashback-session \
-          $(PREFIX)/share/gnome-session/sessions/exwm-gnome-flashback.session \
-          $(PREFIX)/share/xsessions/exwm-gnome-flashback-session.desktop
+	rm -f $(PREFIX)/bin/stumpwm-gnome-flashback $(PREFIX)/bin/stumpwm-gnome-flashback-session \
+          $(PREFIX)/share/gnome-session/sessions/stumpwm-gnome-flashback.session \
+          $(PREFIX)/share/xsessions/stumpwm-gnome-flashback-session.desktop
 
 .PHONY: install uninstall

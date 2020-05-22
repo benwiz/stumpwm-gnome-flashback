@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=EXWM GNOME Flashback
-Comment=This session logs you into GNOME Flashback with EXWM
-Exec=exwm-gnome-flashback-session
-TryExec=emacs
-Type=Application
-DesktopNames=GNOME-Flashback;GNOME;

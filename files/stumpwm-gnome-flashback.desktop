@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=stumpwm-gnome-flashback
+Comment=Stump Window Manager
+Exec=stumpwm-gnome-flashback
+NoDisplay=true
+X-GNOME-WMName=stumpwm-gnome-flashback
+X-GNOME-Autostart-Phase=WindowManager
+X-GNOME-Provides=windowmanager
+X-GNOME-Autostart-Notify=false
