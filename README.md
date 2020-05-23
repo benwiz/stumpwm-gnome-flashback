@@ -1,3 +1,9 @@
+# NOTE
+
+Probably should migrate to this eventually
+
+https://github.com/stumpwm/stumpwm-gnome/pull/1
+
 # exwm-gnome-flashback [![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 
 Allows you to use exwm in a GNOME-Flashback session.  This is the Gnome 'fallback' session, which restores functionality that has been subsumed into the Gnome Shell, making it more suitable for running other WMs.  The aim is to piggy-back `exwm` onto the curated conveniences of the Gnome Desktop Environment.
